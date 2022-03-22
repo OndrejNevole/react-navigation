@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
-import SafeAreaView from 'react-native-safe-area-view';
+import { Text, View, SafeAreaView } from 'react-native';
 
 export const Home = props => {
     return (
