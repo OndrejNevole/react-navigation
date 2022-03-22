@@ -42,10 +42,10 @@ export default function App() {
             tabBarInactiveTintColor: 'gray',
           })}
         >
-          <Tab.Screen name={SCREEN_HOME} component={Home} options={{ title: 'Úvod', headerStyle: { backgroundColor: '#f4511e' } }} />
-          <Tab.Screen name={SCREEN_COMPASS} component={Compass} options={{ title: 'Kompas' }} />
-          <Tab.Screen name={SCREEN_MAP} component={Map} options={{ title: 'Mapa' }} />
-          <Tab.Screen name={SCREEN_CAMERA} component={Camera} options={{ title: 'Kamera' }} />
+          <Tab.Screen name={SCREEN_HOME} component={Home} options={{ title: 'Home', headerStyle: { backgroundColor: '#f4511e' } }} />
+          <Tab.Screen name={SCREEN_COMPASS} component={Compass} options={{ title: 'Compass' }} />
+          <Tab.Screen name={SCREEN_MAP} component={Map} options={{ title: 'Map' }} />
+          <Tab.Screen name={SCREEN_CAMERA} component={Camera} options={{ title: 'Camera' }} />
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
