@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Text, View, SafeAreaView } from 'react-native';
+import { Text, View, } from 'react-native';
+import SafeAreaView from 'react-native-safe-area-view';
 
 export const Compass = props => {
     return (
